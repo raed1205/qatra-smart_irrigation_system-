@@ -269,7 +269,7 @@ Academic project created for the Business Intelligence & Machine Learning course
 Supervised By Dr. Salsabil Besbes 
 
 * **Azza Jouini:** Project Architect and Team Leader
-* **Firas Ben Salem:** ETL Development and Data Modeling
+* **Firas Ben Salem:** ETL Development and Power BI Dashboard Design
 * **Hanna Hmouda:** Database Design and SQL Implementation
-* **Raed Meddeb:** ML Pipeline Evaluation, Classification Benchmarking, and Power BI Dashboard Design
+* **Raed Meddeb:** ML Pipeline Evaluation, Classification Benchmarking
 * **Salsabil Ben Elhadj:** Data Preprocessing and Feature Engineering
