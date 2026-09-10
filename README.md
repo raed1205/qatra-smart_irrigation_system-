@@ -14,8 +14,8 @@ Business Intelligence and Machine Learning system that classifies farms as water
 
 ## Project Documentation
 
-📄 **[View Full Project Report (PDF)](report%20PI.pdf)**  
-📊 **[View Presentation Slides (PDF)](docs/presentation.pdf)**
+ **[View Full Project Report (PDF)](report%20PI.pdf)**  
+
 
 ---
 
@@ -159,14 +159,18 @@ A supervised model is trained on the cluster-derived labels to classify incoming
 
 The analytical model contains two main report screens filterable by fiscal quarter:
 
-**Water Consumption Analysis**
+### Water Consumption Analysis
+![Water Consumption Dashboard](dash.png)
+
 * Top-level KPIs: Total water usage volume and average water usage per acre
 * Breakdown by crop type and general crop category (Cereal, Vegetable, Legume, Fiber, Cash Crop)
 * Distribution by land size (Small, Medium, Large)
 * Volume breakdown across irrigation methods (Drip, Rain-fed, Manual, Sprinkler, Flood)
 * Seasonal consumption trends (Kharif, Zaid, Rabi)
 
-**Yield & Productivity Analysis**
+### Yield & Productivity Analysis
+![Yield and Productivity Dashboard](dashh.png)
+
 * Top-level KPIs: Total crop yield and yield per acre
 * Yield performance by farm size category and crop type
 * Historical yield trend analysis across monthly cycles
@@ -232,6 +236,8 @@ seaborn>=0.12
 ```text
 qatra-irrigation-dss/
 ├── report PI.pdf                 # Main technical project report
+├── dash.png                      # Water consumption dashboard view
+├── dashh.png                     # Yield & productivity dashboard view
 ├── README.md                     # Repository documentation
 ├── data/
 │   └── farm_records.csv          # 5,000 raw farm records
@@ -260,6 +266,7 @@ qatra-irrigation-dss/
 ## Contributors
 
 Academic project created for the Business Intelligence & Machine Learning course.
+Supervised By Dr. Salsabil Besbes 
 
 * **Azza Jouini:** Project Architect and Team Leader
 * **Firas Ben Salem:** ETL Development and Data Modeling
