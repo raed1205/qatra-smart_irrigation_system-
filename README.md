@@ -183,7 +183,7 @@ The analytical model contains two main report screens filterable by fiscal quart
 ### 1. Clone Repository
 
 ```bash
-git clone [https://github.com/RaedMeddeb/qatra-irrigation-dss.git](https://github.com/RaedMeddeb/qatra-irrigation-dss.git)
+git clone [https://github.com/raed1205/qatra-irrigation-dss.git](https://github.com/raed1205/qatra-irrigation-dss.git)
 cd qatra-irrigation-dss
 ```
 
